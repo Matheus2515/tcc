@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaseratiTCC.MainPage"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Background>
+        <RadialGradientBrush >
+            <GradientStopCollection>
+                <GradientStop Color="#0f9be8" Offset="0.0" />
+                <GradientStop Color="#544ba0" Offset="1.0" />
+            </GradientStopCollection>
+        </RadialGradientBrush>
+    </ContentPage.Background>
+
+
+    <StackLayout 
+        
+        Margin="16"
+        Padding="16" >
+
+        <Label Text="Serviços" TextColor="White" Padding="50,160,50,50" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center"/>
+        <Frame WidthRequest="75" HeightRequest="75" CornerRadius="50" Padding="0" Margin="290,-250,0,100">
+            <Image Source="agatha.png" Aspect="AspectFill"/>
+        </Frame>
+
+        <VerticalStackLayout>
+
+            
+            <ImageButton Source="agatha.png" CornerRadius="100" WidthRequest="200" HeightRequest="200" ></ImageButton>
+
+
+
+
+        </VerticalStackLayout>        
+
+        
+    
+    
+    
+    
+    
+    </StackLayout>
+
+</ContentPage>
